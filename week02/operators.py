@@ -9,5 +9,5 @@ print("Chia nguyên:", a // b)
 print("Lũy thừa:", a ** b)
 print("So sánh bằng:", a == b)
 print("Lớn hơn:", a > b)
-print("Lớn hơn:", a > b)
+
 
