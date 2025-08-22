@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tempkit"
+version = "0.1.0"
+description = "Demo package: temperature analytics + CLI"
+readme = { file = "README.md", content-type = "text/markdown" }
+requires-python = ">=3.10"
+authors = [{ name = "Your Name" }]
+
+[project.scripts]
+tempkit = "week03.day04.tempkit.cli:main"
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["week03.day04.tempkit*"]

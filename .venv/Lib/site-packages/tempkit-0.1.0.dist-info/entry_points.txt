@@ -1,0 +1,2 @@
+[console_scripts]
+tempkit = week03.day04.tempkit.cli:main
